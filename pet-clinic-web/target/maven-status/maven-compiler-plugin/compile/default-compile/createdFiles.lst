@@ -1,1 +1,5 @@
+com/anilpatro044/springpetclinic/controller/OwnerController.class
 com/anilpatro044/springpetclinic/SpringPetClinicApplication.class
+com/anilpatro044/springpetclinic/bootstrap/DataLoader.class
+com/anilpatro044/springpetclinic/controller/VetController.class
+com/anilpatro044/springpetclinic/controller/IndexController.class
