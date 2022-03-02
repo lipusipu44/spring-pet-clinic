@@ -1,11 +1,16 @@
 package com.anilpatro044.springpetclinic.model;
 
+import javax.persistence.*;
 import java.time.LocalDate;
-
+@Entity
+@Table(name="visits")
 public class Visit extends BaseEntity{
-
+    @Column(name = "date")
     private LocalDate localDate;
+    @Column(name = "description")
     private String description;
+    @ManyToOne
+    @JoinColumn(name = "pet_id")
     private Pet pet;
 
     public LocalDate getLocalDate() {
