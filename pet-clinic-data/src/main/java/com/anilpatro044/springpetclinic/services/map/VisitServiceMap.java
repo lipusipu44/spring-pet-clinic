@@ -2,9 +2,12 @@ package com.anilpatro044.springpetclinic.services.map;
 
 import com.anilpatro044.springpetclinic.model.Visit;
 import com.anilpatro044.springpetclinic.services.VisitService;
+import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitServiceMap extends AbstractMapService<Visit,Long> implements VisitService {
     @Override
     public Set<Visit> findAll() {
