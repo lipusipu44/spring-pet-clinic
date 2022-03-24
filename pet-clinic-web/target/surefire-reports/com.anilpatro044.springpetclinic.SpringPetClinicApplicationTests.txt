@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.anilpatro044.springpetclinic.SpringPetClinicApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.101 s - in com.anilpatro044.springpetclinic.SpringPetClinicApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.815 s - in com.anilpatro044.springpetclinic.SpringPetClinicApplicationTests
